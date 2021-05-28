@@ -1,0 +1,41 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaFX_WindowComm",
+            "request": "launch",
+            "mainClass": "todomanager.controller.JavaFX_WindowComm",
+            "projectName": "CSE215 Lab_Todo Application"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "todomanager.app.App",
+            "projectName": "CSE215 Lab_Todo Application"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "todomanager.app.App",
+            "projectName": "Todo Application_fee65a15"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "Todo Application_fee65a15"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "vmArgs": "--module-path H:\\software\\Java\\javafx\\lib --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web",
+            "mainClass": "${file}"
+        }
+    ]
+}
